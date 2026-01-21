@@ -2,12 +2,12 @@ GET http://localhost:3001/api/persons
 
 ###
 
-GET http://localhost:3001/api/persons/1
+GET http://localhost:3001/api/persons/696e884120ddff404d60c61e
 
 
 ###
 
-DELETE http://localhost:3001/api/persons/1
+DELETE http://localhost:3001/api/persons/abubu
 
 ###
 
@@ -15,6 +15,9 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Johnny bro",
+    "name": "Jojo Jones",
     "number": "12239312"
 }
+
+###
+GET http://localhost:3001/info
